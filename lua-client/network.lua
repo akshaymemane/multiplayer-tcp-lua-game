@@ -1,7 +1,8 @@
 local socket = require("socket")
 local Network = {}
 
-Network.serverAddress = "127.0.0.1"  -- Change to your server's IP
+-- Network.serverAddress = "127.0.0.1"  -- Change to your server's IP
+Network.serverAddress = "192.168.1.104"  -- Change to your server's IP
 Network.serverPort = 8080
 Network.tcpClient = nil
 
